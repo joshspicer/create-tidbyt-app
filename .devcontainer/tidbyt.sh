@@ -7,3 +7,6 @@ curl -L  https://github.com/tidbyt/pixlet/releases/latest/download/pixlet_0.17.2
 tar xvf pixlet.tar.gz
 sudo mv pixlet /usr/local/bin
 rm -rf /tmp/pixlet
+
+sudo mkdir -p /etc/bash_completion.d/
+sudo su root -c '/usr/local/bin/pixlet completion bash > /etc/bash_completion.d/pixlet'
