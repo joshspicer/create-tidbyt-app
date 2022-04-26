@@ -10,3 +10,6 @@ rm -rf /tmp/pixlet
 
 sudo mkdir -p /etc/bash_completion.d/
 sudo su root -c '/usr/local/bin/pixlet completion bash > /etc/bash_completion.d/pixlet'
+
+echo 'Installed!'
+/usr/local/bin/pixlet version
